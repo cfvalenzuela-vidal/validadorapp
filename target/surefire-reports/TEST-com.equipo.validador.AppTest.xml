@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.equipo.validador.AppTest" time="0.032" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sonar.login" value="squ_c55d630d8b07f34cea9c3a83047da8b8b60bd0dd"/>
+    <property name="sonar.host.url" value="http://localhost:9000"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\cfvalenzuela.vidal\validadorapp\target\test-classes;C:\Users\cfvalenzuela.vidal\validadorapp\target\classes;C:\Users\cfvalenzuela.vidal\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Santiago"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
+    <property name="sun.java.command" value="C:\Users\cfvalenzuela.vidal\AppData\Local\Temp\surefire505669875271028043\surefirebooter-20250616134515928_3.jar C:\Users\cfvalenzuela.vidal\AppData\Local\Temp\surefire505669875271028043 2025-06-16T13-45-15_616-jvmRun1 surefire-20250616134515928_1tmp surefire_0-20250616134515928_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\cfvalenzuela.vidal\validadorapp\target\test-classes;C:\Users\cfvalenzuela.vidal\validadorapp\target\classes;C:\Users\cfvalenzuela.vidal\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\cfvalenzuela.vidal"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\cfvalenzuela.vidal\validadorapp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\cfvalenzuela.vidal\AppData\Local\Temp\surefire505669875271028043\surefirebooter-20250616134515928_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
+    <property name="user.name" value="cfvalenzuela.vidal"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\cfvalenzuela.vidal\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\CFVALE~1.VID\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="C:\Users\cfvalenzuela.vidal\validadorapp"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="sonar.projectKey" value="validadorapp"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17.0.5\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17.0.5;C:\Users\cfvalenzuela.vidal\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\cfvalenzuela.vidal\AppData\Local\Programs\Python\Python312\;C:\Users\cfvalenzuela.vidal\AppData\Local\Microsoft\WindowsApps;C:\Users\cfvalenzuela.vidal\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\cfvalenzuela.vidal\AppData\Local\Programs\mongosh\;C:\Users\cfvalenzuela.vidal\apache-maven-3.9.10\bin;C:\Program Files\Java\jdk-17.0.5\bin;C:\Program Files\Java\jdk-17.0.5;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testApp" classname="com.equipo.validador.AppTest" time="0.0"/>
+</testsuite>
