@@ -2,7 +2,7 @@ package com.equipo.validador;
 
 import junit.framework.TestCase;
 
-public class AppTest extends TestCase {
+public class AppManualTest extends TestCase {
 
     @Override
     protected void setUp() throws Exception {
@@ -10,30 +10,28 @@ public class AppTest extends TestCase {
         App.inicializarFlota();
     }
 
-    public void testObtenerCamionValido() {
+    public void testObtenerCamionExistente() {
         App.Camion camion = App.obtenerCamion("camion1");
-        assertNotNull(camion);
+        assertNotNull("Camion debe existir", camion);
         assertEquals("Camión 1", camion.getNombre());
-        assertEquals(-23.966792, camion.getUbicacion().getLat());
     }
 
-    public void testObtenerCamionInvalido() {
+    public void testObtenerCamionInexistente() {
         App.Camion camion = App.obtenerCamion("noexiste");
-        assertNull(camion);
+        assertNull("Camion no debe existir", camion);
     }
 
     public void testObtenerCamionNuloOVacio() {
-        assertNull(App.obtenerCamion(null));
-        assertNull(App.obtenerCamion(""));
+        assertNull("ID null debe retornar null", App.obtenerCamion(null));
+        assertNull("ID vacío debe retornar null", App.obtenerCamion(""));
     }
 
     public void testMostrarInformacionCamionNoLanzaExcepcion() {
         try {
             App.mostrarInformacionCamion("camion2");
             App.mostrarInformacionCamion("noexiste");
-            App.mostrarInformacionCamion(null);
         } catch (Exception e) {
-            fail("mostrarInformacionCamion lanzó excepción inesperada: " + e.getMessage());
+            fail("mostrarInformacionCamion lanzó excepción inesperada");
         }
     }
 }

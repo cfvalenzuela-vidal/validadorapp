@@ -1,6 +1,6 @@
-projectKey=validadorapp
+projectKey=evaluacion3_vulnerabilidades
 serverUrl=http://localhost:9000
 serverVersion=25.6.0.109173
-dashboardUrl=http://localhost:9000/dashboard?id=validadorapp
-ceTaskId=621bc7d2-668c-4b12-8903-8f87b69b7335
-ceTaskUrl=http://localhost:9000/api/ce/task?id=621bc7d2-668c-4b12-8903-8f87b69b7335
+dashboardUrl=http://localhost:9000/dashboard?id=evaluacion3_vulnerabilidades
+ceTaskId=2019f5fa-ea1c-4355-8134-9c881f1fa448
+ceTaskUrl=http://localhost:9000/api/ce/task?id=2019f5fa-ea1c-4355-8134-9c881f1fa448
